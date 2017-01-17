@@ -121,38 +121,8 @@ Skip to main content
                 <div class="container box-menu-inner scroll-hide scroll-show-mobile">
                     <div class="row">
                         <div id="block-cotutionblocksupportclient">
-                            
-                          
-                            <div class="col-md-4">
-                                <div class="icon-box">
-                                    <div class="icon-box-cell">
-                                        <i class="fa fa-envelope-o text-xl"></i>
-                                    </div>
-                                    <div class="icon-box-cell">
-                                        <label class="text-m"><a class="__cf_email__" href="cdn-cgi/l/email-protection.html" data-cfemail="9df4f3fbf2ddf9f2f0fcf4f3b3fef2f0">[email&#160;protected]</a>
-                                            <script data-cfhash='f9e31' type="text/javascript">
-                                                /* <![CDATA[ */ ! function(t, e, r, n, c, a, p) {
-                                                    try {
-                                                        t = document.currentScript || function() {
-                                                            for (t = document.getElementsByTagName('script'), e = t.length; e--;)
-                                                                if (t[e].getAttribute('data-cfhash')) return t[e]
-                                                        }();
-                                                        if (t && (c = t.previousSibling)) {
-                                                            p = t.parentNode;
-                                                            if (a = c.getAttribute('data-cfemail')) {
-                                                                for (e = '', r = '0x' + a.substr(0, 2) | 0, n = 2; a.length - n; n += 2) e += '%' + ('0' + ('0x' + a.substr(n, 2) ^ r).toString(16)).slice(-2);
-                                                                p.replaceChild(document.createTextNode(decodeURIComponent(e)), c)
-                                                            }
-                                                            p.removeChild(t)
-                                                        }
-                                                    } catch (u) {}
-                                                }() /* ]]> */
-                                            </script>
-                                        </label>
-                                        <p class="text-xs">Write To Us</p>
-                                    </div>
-                                </div>
-                            </div>
+      
+                       
                         </div>
                     </div>
                 </div>
@@ -223,332 +193,9 @@ Skip to main content
         </div>
     </div>
     <div class="views-element-container image_services section-empty" id="block-views-block-cotution-section5-block-services">
-        <div class="call-action-box full-width white">
-            <div class="container content">
-                <div class="advs-box vertical-row">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <p>Get a free quote now or ask us a question, it's free, simple and fast. We will be happy to answer you. </p>
-                        </div>
-                        <div class="col-md-3">
-                            <a class="circle-button btn-sm" href="#">GET A QUOTE </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <div class="views-element-container section-empty" id="block-views-block-cotution-section-block-1">
         <div class="container content">
-            <div class="row" data-anima="fade-bottom" data-timeline="asc">
-                <div class="col-md-3 anima">
-                    <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
-                        <i class="anima icon onlycover text-l"><img src="{THEME}/images/styles/image_85x85/public/2016-06/icon-31_00687.png?itok=0kLaGEvx" alt="BUILDINGS"/></i>
-                        <h3>BUILDINGS</h3>
-                        <p>
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-3 anima">
-                    <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
-                        <i class="anima icon onlycover text-l"><img src="{THEME}/images/styles/image_85x85/public/2016-06/icon-333cd9.png?itok=B76RXprN" alt="ASSISTENCE"/></i>
-                        <h3>ASSISTENCE</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.…
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-3 anima">
-                    <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
-                        <i class="anima icon onlycover text-l"><img src="{THEME}/images/styles/image_85x85/public/2016-06/icon-23db42.png?itok=Ly5oSsQS" alt="MANAGEMENT"/></i>
-                        <h3>MANAGEMENT</h3>
-                        <p>
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-3 anima">
-                    <div class="advs-box advs-box-top-icon" data-anima="scale-up" data-trigger="hover">
-                        <i class="anima icon onlycover text-l"><img src="{THEME}/images/styles/image_85x85/public/2016-06/icon-36c662.png?itok=FFs11gTu" alt="ARCHITECTURE"/></i>
-                        <h3>ARCHITECTURE</h3>
-                        <p>
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <hr class="space m" />
-            <div class="row">
-                <div class="col-md-6" data-anima="fade-left">
-                    <hr class="space" />
-                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
-                        <h2>OUR COMPANY</h2>
-                        <hr class="anima" />
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
-                        <br/>
-                        <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
-                    </p>
-                </div>
-                <div class="col-md-6" data-anima="fade-right">
-                    <img src="{THEME}/images/man.png" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="views-element-container section-bg-color" id="block-views-block-cotution-porfolio1-block-porfolio-project1">
-        <div class="container content" data-anima="fade-bottom">
-            <div class="title-base title-small" data-anima="show-scale" data-trigger="hover">
-                <h2>OUR PROJECTS</h2>
-                <hr class="anima" />
-            </div>
-            <div class="maso-list">
-                <div class="navbar navbar-inner">
-                    <div class="navbar-toggle"><i class="fa fa-bars"></i><span>MENU</span><i class="fa fa-angle-down"></i>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav over ms-rounded inner maso-filters nav-center">
-                            <li class="active"><a data-filter="maso-item">All</a>
-                            </li>
-                            <li><a data-filter="7">Building design</a>
-                            </li>
-                            <li><a data-filter="6">Interior design</a>
-                            </li>
-                            <li><a class="maso-order" data-sort="asc"><i class="fa fa-arrow-down"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="maso-box row">
-                    <div data-sort="2" class="maso-item col-md-4 6">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="enrico-girotti.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_3_1.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="enrico-girotti.html">ENRICO GIROTTI</a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-sort="2" class="maso-item col-md-4 7">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="fashion-store.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_4_1.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="fashion-store.html">FASHION STORE </a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-sort="2" class="maso-item col-md-4 6">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="concept-store.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_1_0.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="concept-store.html">CONCEPT STORE</a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-sort="2" class="maso-item col-md-4 7">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="badroom-design.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_6_0.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="badroom-design.html">BADROOM DESIGN </a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-sort="2" class="maso-item col-md-4 6">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="modern-bed.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_2_0.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="modern-bed.html">MODERN BED</a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-sort="2" class="maso-item col-md-4 7">
-                        <div class="img-box adv-img adv-img-down-text">
-                            <a class="img-box img-scale-up i-center" href="awesome-bad.html">
-                                <div class="caption">
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img alt="" src="{THEME}/images/2016-06/project_5_0.jpg">
-                            </a>
-                            <div class="caption-bottom">
-                                <h2><a href="awesome-bad.html">AWESOME BAD</a></h2>
-                                <p>Tempor incididunt sed</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="views-element-container" id="block-views-block-cotution-section5-block-testimonials">
-        <div class="section-empty">
-            <div class="container content">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
-                            <h2>TESTIMONIALS</h2>
-                            <hr class="anima" />
-                        </div>
-                        <div class="flexslider slider" data-options="numItems:3,itemMargin:10,minWidth:250,directionNav:false,controlNav:false">
-                            <div>
-                                <ul class="slides">
-                                    <li>
-                                        <div class="advs-box niche-box-testimonails-cloud">
-                                            <p>
-                                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                                            </p>
-                                            <div class="name-box vertical-row">
-                                                <h5 class="vertical-col subtitle">ROBERT HATZON<span class="subtxt">Mac</span></h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="advs-box niche-box-testimonails-cloud">
-                                            <p>
-                                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                                            </p>
-                                            <div class="name-box vertical-row">
-                                                <h5 class="vertical-col subtitle">JACK BELL JUNIOR<span class="subtxt">Esco</span></h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="advs-box niche-box-testimonails-cloud">
-                                            <p>
-                                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making…
-                                            </p>
-                                            <div class="name-box vertical-row">
-                                                <h5 class="vertical-col subtitle">FEDERICO SCHIOCCHET<span class="subtxt">Google</span></h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
-                            <h2>OUR CLIENTS</h2>
-                            <hr class="anima" />
-                        </div>
-                        <table class="grid-table border-table" data-anima="show-scale" data-timeline="asc">
-                            <tbody>
-                                <tr>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-1.png" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-8.png" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-7.png" alt="Tewlin" data-toggle="tooltip" data-placement="top" title="Tewlin">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-6.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-5.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-4.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-3.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
-                                    </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-2.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="views-element-container" id="block-views-block-cotution-section5-block-statistical2">
-        <div class="section-bg-color">
-            <div class="container content">
-                <div class="row vertical-row">
-                    <div class="col-md-6">
-                        <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
-                            <h2>NUMBERS</h2>
-                            <hr class="anima" />
-                        </div>
-                        <p>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="icon-box icon-box-top-bottom">
-                                    <div class="icon-box-cell">
-                                        <i class="fa square onlycover text-l"> <img src="{THEME}/images/styles/image_70x70/public/2016-06/icon-2411c2.png?itok=XvYRtbP2" width="70" height="70" alt="image" typeof="Image"/>
-</i>
-                                    </div>
-                                    <div class="icon-box-cell">
-                                        <b>2034</b>
-                                        <p class="text-s">PROJECT COMPLETED</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="icon-box icon-box-top-bottom">
-                                    <div class="icon-box-cell">
-                                        <i class="fa square onlycover text-l"> <img src="{THEME}/images/styles/image_70x70/public/2016-06/icon-270bce.png?itok=JZn7ksrm" width="70" height="70" alt="image" typeof="Image"/>
-</i>
-                                    </div>
-                                    <div class="icon-box-cell">
-                                        <b>850</b>
-                                        <p class="text-s">WORKERS EMPLOIED</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="icon-box icon-box-top-bottom">
-                                    <div class="icon-box-cell">
-                                        <i class="fa square onlycover text-l"> <img src="{THEME}/images/styles/image_70x70/public/2016-06/icon-35d547.png?itok=Bkl_JBcP" width="70" height="70" alt="image" typeof="Image"/>
-</i>
-                                    </div>
-                                    <div class="icon-box-cell">
-                                        <b>35</b>
-                                        <p class="text-s">AWARDS WON</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="views-element-container section-empty" id="block-views-block-cotution-section-block-1">
-        <div class="container content">
-            <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+            <div class="title-base title-small text-left text-center" data-anima="show-scale" data-trigger="hover">
                 <h2>OUR MAIN SERVICES</h2>
                 <hr class="anima" />
             </div>
@@ -620,6 +267,69 @@ Skip to main content
             </div>
         </div>
     </div>
+        <div class="container content">  
+			   <div class="row">
+                <div class="col-md-6" data-anima="fade-left">
+                    <hr class="space" />
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>OUR COMPANY</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+                        <br/>
+                        <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+                    </p>
+                </div>
+                <div class="col-md-6" data-anima="fade-right">
+                    <img src="{THEME}/images/man.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    
+    <div class="views-element-container" id="block-views-block-cotution-section5-block-testimonials">
+        <div class="section-empty">
+            <div class="container content">
+                <div class="row">
+                  
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <div class="title-base title-small text-left text-center" data-anima="show-scale" data-trigger="hover">
+                            <h2>OUR CLIENTS</h2>
+                            <hr class="anima"/>
+                        </div>
+                        
+                        <table class="grid-table border-table" data-anima="show-scale" data-timeline="asc">
+                            <tbody>
+                                <tr>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-1.png" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-8.png" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-7.png" alt="Tewlin" data-toggle="tooltip" data-placement="top" title="Tewlin">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-6.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                
+                                
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-5.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-4.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-3.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-2.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
     <footer class="white ">
         <div class="content">
             <div class="container">
