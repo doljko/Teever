@@ -1,0 +1,99 @@
+@import url(../../css/default.css);
+
+body 
+    {
+    font-family: Verdana;
+    word-spacing: 0.1em;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    font-size: 11px;
+    background-color:#ffffff;
+    color:#000;margin:5px;
+}
+
+img {
+	border: none;
+}
+p 
+    {margin:0}
+
+td{ font-family: Verdana;
+    word-spacing: 0.1em;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    font-size: 11px;}
+
+a:link 
+    {color: rgb(204, 0, 0);}
+a:active 
+    {color: rgb(255, 0, 0);}
+a:visited 
+    {color: rgb(204, 51, 0);}
+
+.Title
+    {
+    margin-bottom:3.0pt;
+    font-size:26.0pt;
+    font-family:"Cambria","serif";
+    color:#17365D;
+    letter-spacing:.25pt;}
+.Subtitle
+    {
+    margin-bottom:10.0pt;
+    line-height:115%;
+    font-size:12.0pt;
+    font-family:"Cambria","serif";
+    color:#4F81BD;
+    letter-spacing:.75pt;
+    font-style:italic;}
+.Quote
+    {
+    margin-bottom:10.0pt;
+    line-height:115%;
+    font-size:11.0pt;
+    font-family:"Calibri","sans-serif";
+    color:black;
+    font-style:italic;}
+.IntenseQuote
+    {
+    margin-top:10.0pt;
+    margin-right:.65in;
+    margin-bottom:14.0pt;
+    margin-left:.65in;
+    line-height:115%;
+    font-size:11.0pt;
+    font-family:"Calibri","sans-serif";
+    color:#4F81BD;
+    font-weight:bold;
+    font-style:italic;}
+.SubtleEmphasis
+    {color:gray;
+    font-style:italic;}
+.IntenseEmphasis
+    {color:#4F81BD;
+    font-weight:bold;
+    font-style:italic;}
+.SubtleReference
+    {font-variant:small-caps;
+    color:#C0504D;
+    text-decoration:underline;}
+.IntenseReference
+    {font-variant:small-caps;
+    color:#C0504D;
+    letter-spacing:.25pt;
+    font-weight:bold;
+    text-decoration:underline;}
+.BookTitle
+    {font-variant:small-caps;
+    letter-spacing:.25pt;
+    font-weight:bold;}
+.CodeForeground 
+    {margin:0in;
+    margin-bottom:.0001pt;
+    font-size:9.0pt;
+    font-family:Courier New;}
+.CodeInText 
+    {font-family:Courier New;
+    font-weight:bold;}
+.ScreenText 
+    {font-family:Tahoma;}

@@ -1,0 +1,76 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Редиректы
+RewriteRule ^page/([0-9]+)(/?)$ index.php?cstart=$1 [L]
+
+# Сам пост
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/page,([0-9]+),([0-9]+),(.*).html$ index.php?subaction=showfull&year=$1&month=$2&day=$3&news_page=$4&cstart=$5&news_name=$6&seourl=$6 [L]
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/page,([0-9]+),(.*).html$ index.php?subaction=showfull&year=$1&month=$2&day=$3&news_page=$4&news_name=$5&seourl=$5 [L]
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/print:page,([0-9]+),(.*).html$ engine/print.php?subaction=showfull&year=$1&month=$2&day=$3&news_page=$4&news_name=$5&seourl=$5 [L]
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/(.*).html$ index.php?subaction=showfull&year=$1&month=$2&day=$3&news_name=$4&seourl=$4 [L]
+
+RewriteRule ^([^.]+)/page,([0-9]+),([0-9]+),([0-9]+)-(.*).html$ index.php?newsid=$4&news_page=$2&cstart=$3&seourl=$5&seocat=$1 [L]
+RewriteRule ^([^.]+)/page,([0-9]+),([0-9]+)-(.*).html$ index.php?newsid=$3&news_page=$2&seourl=$4&seocat=$1 [L]
+RewriteRule ^([^.]+)/print:page,([0-9]+),([0-9]+)-(.*).html$ engine/print.php?news_page=$2&newsid=$3&seourl=$4&seocat=$1 [L]
+RewriteRule ^([^.]+)/([0-9]+)-(.*).html$ index.php?newsid=$2&seourl=$3&seocat=$1 [L]
+
+RewriteRule ^page,([0-9]+),([0-9]+),([0-9]+)-(.*).html$ index.php?newsid=$3&news_page=$1&cstart=$2&seourl=$4 [L]
+RewriteRule ^page,([0-9]+),([0-9]+)-(.*).html$ index.php?newsid=$2&news_page=$1&seourl=$3 [L]
+RewriteRule ^print:page,([0-9]+),([0-9]+)-(.*).html$ engine/print.php?news_page=$1&newsid=$2&seourl=$3 [L]
+RewriteRule ^([0-9]+)-(.*).html$ index.php?newsid=$1&seourl=$2 [L]
+
+# За день
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})(/?)+$ index.php?year=$1&month=$2&day=$3 [L]
+RewriteRule ^([0-9]{4})/([0-9]{2})/([0-9]{2})/page/([0-9]+)(/?)+$ index.php?year=$1&month=$2&day=$3&cstart=$4 [L]
+# За весь месяц
+RewriteRule ^([0-9]{4})/([0-9]{2})(/?)+$ index.php?year=$1&month=$2 [L]
+RewriteRule ^([0-9]{4})/([0-9]{2})/page/([0-9]+)(/?)+$ index.php?year=$1&month=$2&cstart=$3 [L]
+# Вывод за весь год
+RewriteRule ^([0-9]{4})(/?)+$ index.php?year=$1 [L]
+RewriteRule ^([0-9]{4})/page/([0-9]+)(/?)+$ index.php?year=$1&cstart=$2 [L]
+# вывод отдельному тегу
+RewriteRule ^tags/([^/]*)(/?)+$ index.php?do=tags&tag=$1 [L]
+RewriteRule ^tags/([^/]*)/page/([0-9]+)(/?)+$ index.php?do=tags&tag=$1&cstart=$2 [L]
+# поиск по доп полям
+RewriteRule ^xfsearch/([^.]+)/?$ index.php?do=xfsearch&xf=$1 [L]
+RewriteRule ^xfsearch/([^.]+)/page/([0-9]+)(/?)+$ index.php?do=xfsearch&xf=$1&cstart=$2 [L]
+# вывод для отдельного юзера
+RewriteRule ^user/([^/]*)/rss.xml$ engine/rss.php?subaction=allnews&user=$1 [L]
+RewriteRule ^user/([^/]*)(/?)+$ index.php?subaction=userinfo&user=$1 [L]
+RewriteRule ^user/([^/]*)/page/([0-9]+)(/?)+$ index.php?subaction=userinfo&user=$1&cstart=$2 [L]
+RewriteRule ^user/([^/]*)/news(/?)+$ index.php?subaction=allnews&user=$1 [L]
+RewriteRule ^user/([^/]*)/news/page/([0-9]+)(/?)+$ index.php?subaction=allnews&user=$1&cstart=$2 [L]
+RewriteRule ^user/([^/]*)/news/rss.xml(/?)+$ engine/rss.php?subaction=allnews&user=$1 [L]
+# вывод всех последних новостей
+RewriteRule ^lastnews(/?)+$ index.php?do=lastnews [L]
+RewriteRule ^lastnews/page/([0-9]+)(/?)+$ index.php?do=lastnews&cstart=$1 [L]
+# вывод в виде каталога
+RewriteRule ^catalog/([^/]*)/rss.xml$ engine/rss.php?catalog=$1 [L]
+RewriteRule ^catalog/([^/]*)(/?)+$ index.php?catalog=$1 [L]
+RewriteRule ^catalog/([^/]*)/page/([0-9]+)(/?)+$ index.php?catalog=$1&cstart=$2 [L]
+# вывод непрочитанных статей
+RewriteRule ^newposts(/?)+$ index.php?subaction=newposts [L]
+RewriteRule ^newposts/page/([0-9]+)(/?)+$ index.php?subaction=newposts&cstart=$1 [L]
+# вывод избранных статей
+RewriteRule ^favorites(/?)+$ index.php?do=favorites [L]
+RewriteRule ^favorites/page/([0-9]+)(/?)+$ index.php?do=favorites&cstart=$1 [L]
+
+RewriteRule ^rules.html$ index.php?do=rules [L]
+RewriteRule ^statistics.html$ index.php?do=stats [L]
+RewriteRule ^addnews.html$ index.php?do=addnews [L]
+RewriteRule ^rss.xml$ engine/rss.php [L]
+RewriteRule ^sitemap.xml$ uploads/sitemap.xml [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^.]+)/page/([0-9]+)(/?)+$ index.php?do=cat&category=$1&cstart=$2 [L]
+RewriteRule ^([^.]+)/?$ index.php?do=cat&category=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)/rss.xml$ engine/rss.php?do=cat&category=$1 [L]
+RewriteRule ^page,([0-9]+),([^/]+).html$ index.php?do=static&page=$2&news_page=$1&seourl=$2 [L]
+RewriteRule ^print:([^/]+).html$ engine/print.php?do=static&page=$1&seourl=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+).html$ index.php?do=static&page=$1&seourl=$1 [L]

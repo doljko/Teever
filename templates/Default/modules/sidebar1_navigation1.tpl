@@ -1,0 +1,1 @@
+<li><a href="{full-link}"><i class="fa fa-caret-right"></i>{title}</a></li>

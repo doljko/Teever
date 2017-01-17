@@ -1,0 +1,215 @@
+*[data-anima-out] .anima{opacity:0;}.img-box img{transition:all .3s,margin-top 1ms!important;outline:1px solid transparent;animation:all .3s!important;position:relative;}@keyframes rotate-90{0%{transform:rotate(0);}100%{transform:rotate(90deg);}}.rotate-90{animation:rotate-90 .5s;transform:rotate(90deg);opacity:1!important;}@keyframes rotate-20{0%{transform:rotate(0);}100%{transform:rotate(20deg);}}.rotate-20{animation:rotate-20 .5s;transform:rotate(20deg)!important;opacity:1!important;}@keyframes scale-up{0%{transform:scale(1);}100%{transform:scale(1.2);}}.scale-up,.img-scale-up:hover img{animation:scale-up .5s;transform:scale(1.2);opacity:1;}@keyframes scale-up-2x{0%{transform:scale(1);}100%{transform:scale(2);}}.scale-up-2x,.img-scale-up-2x:hover img{animation:scale-up-2x .5s;transform:scale(2);opacity:1!important;}@keyframes scale-rotate{0%{transform:scale(1) rotate(0);}100%{transform:scale(1.2) rotate(4deg);}}.scale-rotate,.img-scale-rotate:hover img{transform:scale(1.2) rotate(4deg);animation:scale-rotate .5s;opacity:1;}@keyframes spinAround{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}.circular-rotation{animation:spinAround 2s linear infinite;opacity:1!important;}@keyframes fadein{0%{opacity:0;}100%{opacity:1;}}.fade-in{animation:fadein .5s;opacity:1!important;}@keyframes fadeleft{0%{opacity:0;transform:translateX(-100px);}100%{opacity:1;transform:translateX(0);}}.fade-left{animation:fadeleft .5s;opacity:1!important;}@keyframes faderight{0%{opacity:0;transform:translateX(100px);}100%{opacity:1;transform:translateX(0);}}.fade-right{animation:faderight .5s;opacity:1!important;}@keyframes fadetop{0%{opacity:0;transform:translateY(-100px);}100%{opacity:1;transform:translateY(0);}}.fade-top{animation:fadetop .5s;opacity:1!important;}@keyframes fadebottom{0%{opacity:0;transform:translateY(100px);}100%{opacity:1;transform:translateY(0);}}.fade-bottom{animation:fadebottom .5s;opacity:1!important;}@keyframes show-scale{0%{opacity:0;transform:scale(0);}100%{opacity:1;transform:scale(1);}}.show-scale{animation:show-scale .5s;opacity:1!important;}@keyframes fromRightToLeft{0%{opacity:1;transform:translate(0);}25%{opacity:0;transform:translate(+100%);}50%{transform:translate(-100%);}100%{opacity:1;transform:translate(0);}}.slide-right-left{animation:fromRightToLeft 0.5s forwards;opacity:1!important;}@keyframes fromTopToBottom{0%{opacity:1;transform:translate(0,0);}25%{opacity:0;transform:translate(0,+100%);}50%{transform:translate(0,-100%);}100%{opacity:1;transform:translate(0,0);}}.slide-top-bottom{animation:fromTopToBottom 0.5s forwards;opacity:1!important;}@keyframes pulse{25%{opacity:.8;transform:scale(1.1);}75%{opacity:1;transform:scale(0.9);}}.pulse,.pulse-fast,.img-pulse:hover img,.img-pulse-fast:hover img{animation-name:pulse;animation-timing-function:linear;opacity:1!important;}.pulse,.img-pulse:hover img{animation-duration:1s;animation-iteration-count:2;}.pulse-fast,.img-pulse-fast:hover img{animation-duration:.5s;animation-iteration-count:1;}@keyframes pulse-horizontal{16.65% {
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        opacity: 1;
+        transform: translateX(-6px);
+    }
+
+    49.95% {
+        transform: translateX(4px);
+    }
+
+    66.6% {
+        transform: translateX(-2px);
+    }
+
+    83.25% {
+        transform: translateX(1px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.pulse-horizontal, .img-pulse-horizontal:hover img {
+    animation-name: pulse-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    opacity: 1 !important;
+}
+/*
+==============================
+PULSE VERTICAL
+==============================
+*/
+
+@keyframes pulse-vertical {
+    16.65% {
+        transform: translateY(8px);
+    }
+
+    33.3% {
+        opacity: 1;
+        transform: translateY(-6px);
+    }
+
+    49.95% {
+        transform: translateY(4px);
+    }
+
+    66.6% {
+        transform: translateY(-2px);
+    }
+
+    83.25% {
+        transform: translateY(1px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.pulse-vertical, .img-pulse-vertical:hover img {
+    animation-name: pulse-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    opacity: 1 !important;
+}
+
+
+/*
+==============================
+GRAPHICS ANIMATIONS - GLOBAL SETTINGS
+==============================
+*/
+
+.ganimation-pulse:after, .ganimation-explode:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-sizing: content-box;
+}
+
+/*
+============================== 
+GANIMATION - PULSE
+==============================
+*/
+@keyframes ganimation-pulse {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.ganimation-pulse:after {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(90, 90, 90, 0.4);
+    animation-name: ganimation-pulse;
+    animation-duration: .3s;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.circle.ganimation-pulse, .circle.ganimation-explode {
+    overflow: visible;
+}
+
+    .circle.ganimation-pulse:after, .circle.ganimation-explode:after {
+        border-radius: 50%;
+        overflow: visible;
+    }
+
+/*
+============================== 
+GANIMATION - EXPLODE
+==============================
+*/
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 20px 20px rgba(197, 197, 197, 0.2);
+    }
+
+    100% {
+        box-shadow: 0 0 20px 20px rgba(197, 197, 197, 0.2);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.ganimation-explode {
+    transition: transform ease-out 0.1s, background 0.2s;
+    -webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    transform: scale(0.93);
+}
+
+    .ganimation-explode:after {
+        top: 0;
+        left: 0;
+        padding: 0;
+        z-index: -1;
+        border-radius: 3px;
+        opacity: 0;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-animation: sonarEffect .3s ease-out 75ms;
+        -moz-animation: sonarEffect .3s ease-out 75ms;
+        animation: sonarEffect .3s ease-out 75ms;
+        background-color: rgba(197, 197, 197, 0.2);
+    }
+
+
+/*
+==============================
+GANIMATION - GLASS
+==============================
+*/
+@keyframes glass {
+    0% {
+        transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+        opacity: 1;
+    }
+}
+
+.ganimation-glass {
+    overflow: hidden;
+}
+
+    .ganimation-glass::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(155, 155, 155, 0.31);
+        content: '';
+        animation-name: glass;
+        animation-duration: .4s;
+        opacity: 0;
+        z-index: 1;
+    }

@@ -1,0 +1,2 @@
+[allow-download]<span class="attachment"><a href="{link}" >{name}</a> [count] [{size}] (downloads: {count})[/count]</span>[/allow-download]
+[not-allow-download]<span class="attachment">You do not have access to download files from our server</span>[/not-allow-download]

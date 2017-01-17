@@ -1,0 +1,4 @@
+<Files "antibot.php">
+	Order Deny,Allow
+	Allow from all
+</files>
