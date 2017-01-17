@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="{THEME}/css/magnific-popup7e96.css" media="all" />
     <link rel="stylesheet" href="{THEME}/css/font-awesome.min7e96.css" media="all" />
     <link rel="stylesheet" href="{THEME}/css/update7e96.css" media="all" />
+    <link rel="stylesheet" href="{THEME}/css/new.css" media="all" />
 </head>
 
 <body class="ltr  ">
@@ -118,189 +119,69 @@ Skip to main content
                         </div>
                     </div>
                 </div>
-                <div class="container box-menu-inner scroll-hide scroll-show-mobile">
-                    <div class="row">
-                        <div id="block-cotutionblocksupportclient">
-      
-                       
-                        </div>
-                    </div>
-                </div>
             </div>
         </nav>
     </header>
     <div class="views-element-container section-slider home-slider" id="block-views-block-cotution-slide-block-1">
         <div class="flexslider advanced-slider slider white" data-options="animation:fade">
             <ul class="slides">
-                <li data-slider-anima="fade-right" data-timeline="asc">
-                    <div class="section-slide">
-                        <div class="bg-cover"> <img src="{THEME}/images/styles/image_1350x600/public/2016-06/slide-1_0b319.jpg?itok=e5DpYCpN" width="1350" height="600" alt="image" typeof="Image" />
-                        </div>
-                        <div class="container">
-                            <div class="container-middle">
-                                <div class="container-inner white text-left">
-                                    <h1 class="text-bold anima">BUILDING A MODERN HOUSE</h1>
-                                    <p class="anima">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        <br/>adipisicing elit, sed do eiusmod tempor incididunt.
-                                    </p>
-                                    <hr class="space s" />
-                                    <a href="services-6.html" class="btn btn-default btn-sm circle-button anima">SHOW SERVICES</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li data-slider-anima="fade-right" data-timeline="asc">
-                    <div class="section-slide">
-                        <div class="bg-cover"> <img src="{THEME}/images/styles/image_1350x600/public/2016-06/slide-2_0858b.jpg?itok=aNoiA-pZ" width="1350" height="600" alt="image" typeof="Image" />
-                        </div>
-                        <div class="container">
-                            <div class="container-middle">
-                                <div class="container-inner white text-left">
-                                    <h1 class="text-bold anima">WELCOME TO COMPANYS</h1>
-                                    <p class="anima">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elite.
-                                    </p>
-                                    <hr class="space s" />
-                                    <a href="services-6.html" class="btn btn-default btn-sm circle-button anima">SHOW SERVICES</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li data-slider-anima="fade-right" data-timeline="asc">
-                    <div class="section-slide">
-                        <div class="bg-cover"> <img src="{THEME}/images/styles/image_1350x600/public/2016-06/slide-3_17ebf.jpg?itok=EPtPYc-8" width="1350" height="600" alt="image" typeof="Image" />
-                        </div>
-                        <div class="container">
-                            <div class="container-middle">
-                                <div class="container-inner white text-left">
-                                    <h1 class="text-bold anima">BUILDING A MODERN HOUSE</h1>
-                                    <p class="anima">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        <br/> tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                        <br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    </p>
-                                    <hr class="space s" />
-                                    <a href="services-6.html" class="btn btn-default btn-sm circle-button anima">SHOW SERVICES</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                {custom category="1" template="short_homeslider" limit="3" from="0" order="date" cache="cache" avaible="global"}
             </ul>
         </div>
     </div>
-    <div class="views-element-container image_services section-empty" id="block-views-block-cotution-section5-block-services">
-     <div class="views-element-container section-empty" id="block-views-block-cotution-section-block-1">
+    <div class="views-element-container section-empty" id="block-views-block-cotution-section-block-1">
         <div class="container content">
             <div class="title-base title-small text-left text-center" data-anima="show-scale" data-trigger="hover">
-                <h2>OUR MAIN SERVICES</h2>
+                <h2>Үйлчилгээ</h2>
                 <hr class="anima" />
             </div>
             <div class="flexslider carousel outer-navs" data-options="numItems:3,itemMargin:10,minWidth:250">
                 <div>
                     <ul class="slides">
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-pencil icon circle anima"></i>
-                                <h4>GENERAL CONTRACTING</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="general-contracting.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-building icon circle anima"></i>
-                                <h4>COMPANYS CONSULTAN</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="companys-consultan.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-align-justify icon circle anima"></i>
-                                <h4>METAL ROOFING</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="metal-roofing.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-home icon circle anima"></i>
-                                <h4>HOUSE RENOVATION</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="house-renovation.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-leaf icon circle anima"></i>
-                                <h4>GREEN BUILDING</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="green-building.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
-                                <i class="fa fa-eye icon circle anima"></i>
-                                <h4>INTERIOR DESIGN</h4>
-                                <p>
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)…
-                                </p>
-                                <a class="anima-button circle-button btn-sm" href="interior-design.html"><i class="fa fa-long-arrow-right"></i>More informations </a>
-                            </div>
-                        </li>
+                       {custom category="1" template="short_home_service" limit="6" from="0" order="date" cache="cache" avaible="global"}
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-        <div class="container content">  
-			   <div class="row">
-                <div class="col-md-6" data-anima="fade-left">
-                    <hr class="space" />
-                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
-                        <h2>OUR COMPANY</h2>
-                        <hr class="anima" />
-                    </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
-                        <br/>
-                        <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
-                    </p>
+    <div class="views-element-container image_services section-empty" id="block-views-block-cotution-section5-block-services">
+        <div class="container content">
+            <div class="row">
+                {custom category="1" template="short_home_aboutus" limit="1" from="0" order="date" cache="cache" avaible="global"}
+            </div>
+        </div>
+    </div>
+
+    <div class="views-element-container section-empty" id="block-views-block-cotution-section-block-3">
+        <div class="container content">
+            <div class="title-base title-small" data-anima="show-scale" data-trigger="hover">
+                <h2>Мэдээ мэдээлэл</h2>
+                <hr class="anima show-scale" aid="0.8702357777865082" style="position: relative; transition-duration: 300ms; animation-duration: 300ms; transition-timing-function: ease; transition-delay: 0ms;">
+            </div>
+            <div class="flexslider carousel outer-navs" data-options="numItems:3,itemMargin:10,minWidth:250">
+                <div>
+
                 </div>
-                <div class="col-md-6" data-anima="fade-right">
-                    <img src="{THEME}/images/man.png" alt="" />
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul class="slides">
+                        {custom category="1" template="short_home_news" limit="6" from="0" order="date" cache="cache" avaible="global"}
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-      
-    
+
     <div class="views-element-container" id="block-views-block-cotution-section5-block-testimonials">
         <div class="section-empty">
             <div class="container content">
                 <div class="row">
-                  
-                    </div>
+
                     <div class="col-md-12 col-sm-6">
                         <div class="title-base title-small text-left text-center" data-anima="show-scale" data-trigger="hover">
                             <h2>OUR CLIENTS</h2>
-                            <hr class="anima"/>
+                            <hr class="anima" />
                         </div>
-                        
+
                         <table class="grid-table border-table" data-anima="show-scale" data-timeline="asc">
                             <tbody>
                                 <tr>
@@ -312,8 +193,7 @@ Skip to main content
                                     </td>
                                     <td><img class="anima" src="{THEME}/images/2016-06/logo-6.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
                                     </td>
-                                
-                                
+
                                     <td><img class="anima" src="{THEME}/images/2016-06/logo-5.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
                                     </td>
                                     <td><img class="anima" src="{THEME}/images/2016-06/logo-4.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
@@ -329,7 +209,8 @@ Skip to main content
                 </div>
             </div>
         </div>
-  
+    </div>
+
     <footer class="white ">
         <div class="content">
             <div class="container">
