@@ -91,7 +91,7 @@ Skip to main content
                         <button class="navbar-toggle">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="{THEME}/images/logo.png" alt="Home">
+                        <a class="navbar-brand" href="index.html"><img src="{THEME}/images/logo.jpg" alt="Home">
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" data-menu-anima="fade-bottom">
@@ -122,6 +122,22 @@ Skip to main content
             </div>
         </nav>
     </header>
+    [not-available=main]
+    <div class="section-empty">
+        <div class="container content">
+            <div class="row grid-list one-row-list"> 
+                <div class="col-md-9 grid-box">
+                		{info}
+                		{content}
+                </div>
+                {include file="sidebar.tpl"}
+            </div>
+        </div>
+    </div>
+    [/not-available]
+    
+    
+    [available=main]
     <div class="views-element-container section-slider home-slider" id="block-views-block-cotution-slide-block-1">
         <div class="flexslider advanced-slider slider white" data-options="animation:fade">
             <ul class="slides">
@@ -170,37 +186,60 @@ Skip to main content
             </div>
         </div>
     </div>
-
+    [/available]
     <div class="views-element-container" id="block-views-block-cotution-section5-block-testimonials">
         <div class="section-empty">
             <div class="container content">
                 <div class="row">
 
-                    <div class="col-md-12 col-sm-6">
-                        <div class="title-base title-small text-left text-center" data-anima="show-scale" data-trigger="hover">
-                            <h2>OUR CLIENTS</h2>
-                            <hr class="anima" />
-                        </div>
+                    <div class="col-md-12">
 
                         <table class="grid-table border-table" data-anima="show-scale" data-timeline="asc">
                             <tbody>
                                 <tr>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-1.png" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/1.jpg" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-8.png" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/2.jpg" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-7.png" alt="Tewlin" data-toggle="tooltip" data-placement="top" title="Tewlin">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/3.jpg" alt="Tewlin" data-toggle="tooltip" data-placement="top" title="Tewlin">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-6.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/4.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
                                     </td>
 
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-5.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/5.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-4.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/6.jpg" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-3.png" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/7.jpg" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
                                     </td>
-                                    <td><img class="anima" src="{THEME}/images/2016-06/logo-2.png" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    <td><img class="anima" src="{THEME}/images/2016-06/8.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                </tr> 
+                                <tr>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/9.jpg" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/10.jpg" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/11.jpg" alt="Tewlin" data-toggle="tooltip" data-placement="top" title="Tewlin">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/12.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+
+                                    <td><img class="anima" src="{THEME}/images/2016-06/13.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/14.jpg" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/15.jpg" alt="Catalyst" data-toggle="tooltip" data-placement="top" title="Catalyst">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/16.jpg" alt="Laing" data-toggle="tooltip" data-placement="top" title="Laing">
+                                    </td>
+                                </tr>
+                                    <tr>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/17.jpg" alt="Expanded" data-toggle="tooltip" data-placement="top" title="Expanded">
+                                    </td>
+                                    <td><img class="anima" src="{THEME}/images/2016-06/18.jpg" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
+                                    </td>     
+                                    <td><img class="anima" src="{THEME}/images/2016-06/20.jpg" alt="Cat" data-toggle="tooltip" data-placement="top" title="Cat">
                                     </td>
                                 </tr>
                             </tbody>
@@ -211,30 +250,32 @@ Skip to main content
         </div>
     </div>
 
+   
     <footer class="white ">
         <div class="content">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 footer-left">
                         <div id="block-cotutionblockabout">
-                            <h4>ABOUT US</h4>
+                            <h4>Бидний тухай</h4>
                             <hr class="e" />
                             <hr class="space s" />
                             <img src="{THEME}/images/logo-light.png" alt="logo" />
                             <hr class="space s" />
                             <p>
-                                Cotution SRL works as international construction services company and is a leading builder in diverse and numerous market segments. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                               Авто тээврийн “ТАВ” ХК авто тээврийн салбарын ууган байгууллагуудын нэг ба тасралгүй 50 жил үйл ажиллагаагаа явуулж байна. Манай компани 1961 онд үүсгэн байгуулагдаж орон нутгийн ачаа тээврийн үйл ажиллагааг эрхэлж ирсэн. 
+
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 footer-left">
                         <div id="block-cotutionblockaddress">
-                            <h4>CONTACTS</h4>
+                            <h4>Холбоо барих</h4>
                             <hr class="e" />
                             <hr class="space s" />
                             <ul class="fa-ul text-s">
-                                <li><i class="fa-li fa fa-map-marker"></i> PO Box 16122, Collins Street West, Victoria 8007, United States.</li>
-                                <li><i class="fa-li fa fa-envelope"></i> <a class="__cf_email__" href="cdn-cgi/l/email-protection.html" data-cfemail="1f767179705f7c70726f7e7166317c7072">[email&#160;protected]</a>
+                                <li><i class="fa-li fa fa-map-marker"></i> Баянгол дүүрэг 3-р хороо.</li>
+                                <li><i class="fa-li fa fa-envelope"></i> <a class="__cf_email__" href="cdn-cgi/l/email-protection.html" data-cfemail="1f767179705f7c70726f7e7166317c7072">&#160; avtubus@gmail.com</a>
                                     <script data-cfhash='f9e31' type="text/javascript">
                                         /* <![CDATA[ */ ! function(t, e, r, n, c, a, p) {
                                             try {
@@ -254,7 +295,7 @@ Skip to main content
                                         }() /* ]]> */
                                     </script>
                                 </li>
-                                <li><i class="fa-li fa fa-mobile-phone"></i> (+39) 320 33022256</li>
+                                <li><i class="fa-li fa fa-mobile-phone"></i>33022256</li>
                             </ul>
                             <div class="btn-group navbar-social">
                                 <div class="btn-group social-group">
@@ -268,29 +309,22 @@ Skip to main content
                     </div>
                     <div class="col-md-4">
                         <div id="block-cotutionblockfooter">
-                            <h4>INFOMATIONS</h4>
+                            <h4>Холбоос</h4>
                         </div>
                         <hr class="e" />
                         <hr class="space s" />
                         <div class="row">
                             <div class="col-md-6">
-                                <nav role="navigation" aria-labelledby="block-menufooter-menu" id="block-menufooter">
-                                    <h2 class="visually-hidden">INFOMATIONS</h2>
+                                <nav role="navigation" aria-labelledby="block-menufooter-menu" id="block-menufooter">            
                                     <ul class="fa-ul text-s">
                                         <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">НҮҮР</a>
                                         </li>
                                         <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Company</a>
+                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">БИДНИЙ ТУХАЙ</a>
                                         </li>
                                         <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Certifications</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Company</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Core Values</a>
+                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">БҮТЭЭГДЭХҮҮН</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -300,21 +334,12 @@ Skip to main content
                                     <h2 class="visually-hidden">Menu footer 2</h2>
                                     <ul class="fa-ul text-s">
                                         <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Faq</a>
+                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">ҮЙЛЧИЛГЭЭ</a>
                                         </li>
                                         <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Manuals</a>
+                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">ХОЛБОО БАРИХ</a>
                                         </li>
-                                        <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Company History</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Locations</a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html" data-drupal-link-system-path="&lt;front&gt;">Privacy</a>
-                                        </li>
-                                    </ul>
+                                      </ul>
                                 </nav>
                             </div>
                         </div>
@@ -325,7 +350,7 @@ Skip to main content
         <div class="copy-row">
             <div id="block-cotutionblockcopyright">
                 <div class="copy-text">
-                    ALL RIGHT RESERVED | COMPANY NAME
+                    Зохиогчын эрх хуулиар хамгаалагдсан ©. 2017 он.Вэбсайтыг хөгжүүлсэн "Тагтаа Солюшн" ХХК.
                 </div>
             </div>
         </div>
